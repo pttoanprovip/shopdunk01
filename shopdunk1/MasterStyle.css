@@ -1,0 +1,218 @@
+﻿body {
+    margin: 0px;
+    border: none;
+}
+
+.topDiv {
+    background-color: dimgrey;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+
+
+header {
+    width: 15%;
+}
+
+#header1 img {
+    float: left;
+    max-width: 120px;
+    max-height: 40px;
+}
+
+#header2 {
+    float: right;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+#topMenu ul {
+    list-style-type: none;
+}
+
+#topMenu li {
+    display: inline;
+}
+
+nav {
+    float: left;
+    width: 70%;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
+
+#topMenu a {
+    color: white;
+    text-decoration: none;
+}
+
+.Maincontent {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+#newRegister {
+    background-color: lightgrey;
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgrey;
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+}
+
+    footer img {
+        float: left;
+        max-width: 120px;
+        max-height: 40px;
+    }
+
+.footer-left{
+    display:flex;
+    align-items:flex-start;
+}
+
+#footer-text{
+    display:flex;
+    flex-direction:column
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+/*cho home*/
+h1{
+    font-family:Arial;
+    font-size:36px;
+    text-align:center;
+}
+
+img{
+    border:none;
+    vertical-align:top;     
+}
+
+#prod-img{
+    max-width:150px;
+    max-height:180px;
+}
+
+#prod-name{
+    font-family:'Times New Roman';
+    font-weight:bold;
+}
+
+#new-price{
+    color:cornflowerblue;
+    font-weight:bold;
+    font-size:medium;
+    display:inline;
+}
+
+#old-price {
+    color: grey;
+    display: inline;
+    font-size:small;
+    text-decoration:line-through;
+}
+
+#discount{
+    color: grey;
+    display: inline;
+    font-size: small;
+}
+
+/*article{
+    background-color:grey;
+}*/
+
+#prod-table{
+    background-color:white;
+    border-spacing:10px;
+}
+
+#prod-td{
+    width:25%;
+    height:250px;
+    border:groove;
+}
+
+#xemall{
+    border-radius:2px;
+    color:blue;
+    align-items:center;
+    max-width:120px;
+    max-height:80px;
+}
+/*cho productcategory*/
+#prod-table{
+
+}
+
+#prod-td {
+    width: 25%;
+    height: 250px;
+    border: groove;
+}
+
+/*cho detail*/
+
+#container {
+    display: flex;
+}
+
+
+.buttomdungluong{
+    width:150px;
+    height:80px;
+}
+
+#Muahang{
+    width:250px;
+    height:80px;
+    background-color:blue;
+    border-radius:16px;
+    align-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    margin-top:20px;
+    padding-left:80px;
+    margin-left:60px
+    
+}
+
+#new-price {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: medium;
+    display: inline;
+}
+
+#old-price {
+    color: grey;
+    display: inline;
+    font-size: small;
+    text-decoration: line-through;
+}
+
+#left-column{
+    float:left;
+}
+
+#right-column{
+    float:  right;
+    margin-right:300px;
+}
+
